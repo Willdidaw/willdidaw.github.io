@@ -379,6 +379,9 @@ footer .social a{
   background-color: var(--body-color);
   margin-top: 100px;
   height: 150vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-section .container {
@@ -407,17 +410,20 @@ footer .social a{
 
 .about-section .container h1 {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin: 0;
+  padding: 20px 0 10px 0;
 }
 
-.about-section .container h2 {
-  margin-top: 1.5rem;
+.about-section .container h2{
   font-size: 1.5rem;
   color: #c7b683;
+  margin: 0;
+  padding: 20px 0 10px 0;
 }
 
 .about-section .container p {
-  margin-top: 0.5rem;
+  margin: 0;
+  padding: 0;
   line-height: 1.6;
 }
 
@@ -432,11 +438,10 @@ footer .social a{
 
 .team-list {
   list-style: none;
-  margin-top: 1rem;
+
 }
 
 .team-list li {
-  margin: 0.5rem 0;
   font-size: 1.1rem;
 }
 
