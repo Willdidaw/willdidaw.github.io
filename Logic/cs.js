@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         // Validate phone required and numbers only
-        if (phone.length === 0) {
+        if (phone.length === 0 ) {
             alert("Phone number is required.");
             return;
         }
@@ -40,6 +40,21 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!phonePattern.test(phone)) {
             alert("Phone number must contain only digits.");
             return;
+        }
+        // Validate phone number minimum digit are 16
+        if (phone.length < 10) {
+        alert("Phone number must be at least 10 digits.");
+        return;
+        }
+        // Validate phone number maximum digit are 16
+        if (phone.length > 16) {
+        alert("Phone number maximum is 16 digits.");
+        return;
+        }
+        // Validate phone number must startwith 0
+        if (!phone.startsWith("0")) {
+        alert("Phone number must start with 0.");
+        return;
         }
 
         // Validate event type selected
@@ -62,7 +77,13 @@ document.addEventListener("DOMContentLoaded", function () {
         // All validations passed
         console.log('Form submitted with data:', { name, email, phone, eventType, message });
 
+        // Tambahkan alert ini
+        alert("We gonna reach out to you, Thank You");
+
+        // Jika ingin mengosongkan form setelah dikirim, bisa aktifkan baris ini:
+        form.reset();
         // Submit the form if desired
         // form.submit();
     });
+
 });
