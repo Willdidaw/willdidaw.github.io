@@ -382,7 +382,7 @@ footer .social a{
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .about-section .container {
