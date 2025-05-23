@@ -64,7 +64,7 @@ a:hover {
   outline: none;
 }
 a:hover { 
-  color: #d89b59; 
+  color: #ffffff; 
 }
 h2 {
   margin-bottom: 48px; 
@@ -382,6 +382,7 @@ footer .social a{
   flex: 1;
   display: flex;
   flex-direction: column;
+  padding-bottom: 100px;
 }
 
 .about-section .container {
