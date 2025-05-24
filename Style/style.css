@@ -1,4 +1,4 @@
-/*=============== VARIABLES CSS ===============*/
+	/*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 40px;
   /*========== Colors ==========*/
@@ -168,7 +168,7 @@ nav ul li a{
 }
 
 nav ul li a:hover {
-  color: var(--text-color);
+  color: #c7b683;
   cursor: pointer;
   background-color: #f3f3f3;
 }
