@@ -194,6 +194,10 @@ nav ul li a:hover {
   background-color: #d5ac32;
 }
 
+.cur-page{
+  color: #c7b683;
+}	
+
 /* ====== Footer ====== */
 footer{
   background-color: var(--body-color);
@@ -212,8 +216,10 @@ footer .social a{
 }
 
 footer .social a:hover {
-  color: #d4af37; /* warna emas klasik */
+  color: #d4af37;
 }
+
+
 
 /* ====== Index Page ========= */
 #carousel{
